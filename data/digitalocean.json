@@ -1,0 +1,222 @@
+{
+  "region": [{
+    "id": "ams1",
+    "desc": "Amsterdam 1"
+  }, {
+    "id": "ams2",
+    "desc": "Amsterdam 2"
+  }, {
+    "id": "ams3",
+    "desc": "Amsterdam 3"
+  }, {
+    "id": "fra1",
+    "desc": "Frankfurt 1"
+  }, {
+    "id": "lon1",
+    "desc": "London 1"
+  }, {
+    "id": "nyc1",
+    "desc": "New York 1"
+  }, {
+    "id": "nyc2",
+    "desc": "New York 2"
+  }, {
+    "id": "nyc3",
+    "desc": "New York 3"
+  }, {
+    "id": "sfo1",
+    "desc": "San Francisco 1"
+  }, {
+    "id": "sgp1",
+    "desc": "Singapore 1"
+  }, {
+    "id": "tor1",
+    "desc": "Toronto 1"
+  }],
+
+
+  "image": {
+    "dist": [{
+      "id": "centos-5-8-x32",
+      "desc": "Centos 5.8 32bit"
+    }, {
+      "id": "centos-5-8-x64",
+      "desc": "Centos 5.8 64bit"
+    }, {
+      "id": "centos-6-5-x32",
+      "desc": "Centos 6.5 32bit"
+    }, {
+      "id": "centos-6-5-x64",
+      "desc": "Centos 6.5 64bit"
+    }, {
+      "id": "centos-7-0-x64",
+      "desc": "Centos 7.0 64bit"
+    }, {
+      "id": "coreos-alpha",
+      "desc": "CoreOS Alpha"
+    }, {
+      "id": "coreos-beta",
+      "desc": "CoreOS Beta"
+    }, {
+      "id": "coreos-stable",
+      "desc": "CoreOS Stable"
+    }, {
+      "id": "debian-6-0-x32",
+      "desc": "Debian 6.0 32bit"
+    }, {
+      "id": "debian-6-0-x64",
+      "desc": "Debian 6.0 64bit"
+    }, {
+      "id": "debian-7-0-x32",
+      "desc": "Debian 7.0 32bit"
+    }, {
+      "id": "debian-7-0-x64",
+      "desc": "Debian 7.0 64bit"
+    }, {
+      "id": "debian-8-x32",
+      "desc": "Debian 8 32bit"
+    }, {
+      "id": "debian-8-x64",
+      "desc": "Debian 8 64bit"
+    }, {
+      "id": "fedora-21-x64",
+      "desc": "Fedora 21 64bit"
+    }, {
+      "id": "fedora-22-x64",
+      "desc": "Fedora 22 64bit"
+    }, {
+      "id": "freebsd-10-1-x64",
+      "desc": "FreeBSD 10.1 64bit"
+    }, {
+      "id": "freebsd-10-2-x64",
+      "desc": "FreeBSD 10.2 64bit"
+    }, {
+      "id": "ubuntu-12-04-x32",
+      "desc": "Ubuntu 12.04 32bit"
+    }, {
+      "id": "ubuntu-12-04-x64",
+      "desc": "Ubuntu 12.04 64bit"
+    }, {
+      "id": "ubuntu-14-04-x32",
+      "desc": "Ubuntu 14.04 32bit"
+    }, {
+      "id": "ubuntu-14-04-x64",
+      "desc": "Ubuntu 14.04 64bit"
+    }, {
+      "id": "ubuntu-15-04-x32",
+      "desc": "Ubuntu 15.04 32bit"
+    }, {
+      "id": "ubuntu-15-04-x64",
+      "desc": "Ubuntu 15.04 64bit"
+    }],
+
+    "app": [{
+      "id": "cassandra",
+      "desc": "Cassandra on Ubuntu 14.04"
+    }, {
+      "id": "discourse",
+      "desc": "Discourse on Ubuntu 14.04"
+    }, {
+      "id": "django",
+      "desc": "Django on Ubuntu 14.04"
+    }, {
+      "id": "docker",
+      "desc": "Docker 1.8.3 on Ubuntu 14.04"
+    }, {
+      "id": "dokku",
+      "desc": "Dokku v0.4.2 on Ubuntu 14.04"
+    }, {
+      "id": "drone",
+      "desc": "Drone on Ubuntu 14.04"
+    }, {
+      "id": "drupal",
+      "desc": "Drupal 7.39 on Ubuntu 14.04"
+    }, {
+      "id": "elk",
+      "desc": "ELK Logging Stack on Ubuntu 14.04"
+    }, {
+      "id": "freebsd-amp",
+      "desc": "FreeBSD AMP on FreeBSD 10.1"
+    }, {
+      "id": "ghost",
+      "desc": "Ghost 0.7.1 on Ubuntu 14.04"
+    }, {
+      "id": "gitlab",
+      "desc": "GitLab 8.0.4 CE on Ubuntu 14.04"
+    }, {
+      "id": "joomla",
+      "desc": "Joomla! 3.4.3 on Ubuntu 14.04"
+    }, {
+      "id": "lamp",
+      "desc": "LAMP on Ubuntu 14.04"
+    }, {
+      "id": "lemp",
+      "desc": "LEMP on Ubuntu 14.04"
+    }, {
+      "id": "magento",
+      "desc": "Magento 1.9.2.1 CE on Ubuntu 14.04"
+    }, {
+      "id": "mean",
+      "desc": "MEAN on Ubuntu 14.04"
+    }, {
+      "id": "mediawiki",
+      "desc": "MediaWiki on Ubuntu 14.04"
+    }, {
+      "id": "mongodb",
+      "desc": "MongoDB 3.0.5 on Ubuntu 14.04"
+    }, {
+      "id": "mumble",
+      "desc": "Mumble Server (murmur) on Ubuntu 14.04"
+    }, {
+      "id": "node",
+      "desc": "NodeJS v4.1.0 on Ubuntu 14.04"
+    }, {
+      "id": "owncloud",
+      "desc": "ownCloud 8.1.3 on Ubuntu 14.04"
+    }, {
+      "id": "phpmyadmin",
+      "desc": "PHPMyAdmin on Ubuntu 14.04"
+    }, {
+      "id": "redis",
+      "desc": "Redis 3.0.4 on Ubuntu 14.04"
+    }, {
+      "id": "redmine",
+      "desc": "Redmine on Ubuntu 14.04"
+    }, {
+      "id": "ruby-on-rails",
+      "desc": "Ruby on Rails (Postgres, Nginx, Unicorn) on Ubuntu 14.04"
+    }, {
+      "id": "wordpress",
+      "desc": "WordPress on Ubuntu 14.04"
+    }]
+  },
+
+  "size": [{
+    "id": "512mb",
+    "desc": "512MB RAM/1 CPU. 20GB SSD Disk. 1TB Transfer. $5/month. $0.007/hour."
+  }, {
+    "id": "1gb",
+    "desc": "1GB RAM/1 CPU. 30GB SSD Disk. 2TB Transfer. $10/month. $0.015/hour."
+  }, {
+    "id": "2gb",
+    "desc": "2GB RAM/2 CPU. 40GB SSD Disk. 3TB Transfer. $20/month. $0.030/hour."
+  }, {
+    "id": "4gb",
+    "desc": "4GB RAM/2 CPU. 60GB SSD Disk. 4TB Transfer. $40/month. $0.060/hour."
+  }, {
+    "id": "8gb",
+    "desc": "8GB RAM/4 CPU. 80GB SSD Disk. 5TB Transfer. $80/month. $0.119/hour."
+  }, {
+    "id": "16gb",
+    "desc": "16GB RAM/8 CPU. 160GB SSD Disk. 6TB Transfer. $160/month. $0.238/hour."
+  }, {
+    "id": "32gb",
+    "desc": "32GB RAM/12 CPU. 320GB SSD Disk. 7TB Transfer. $320/month. $0.476/hour."
+  }, {
+    "id": "48gb",
+    "desc": "48GB RAM/16 CPU. 480GB SSD Disk. 8TB Transfer. $480/month. $0.714/hour."
+  }, {
+    "id": "64gb",
+    "desc": "64GB RAM/20 CPU. 640GB SSD Disk. 9TB Transfer. $640/month. $0.952/hour."
+  }]
+}

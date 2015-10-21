@@ -1,0 +1,170 @@
+{
+  "gce": {
+    "zone": [{
+      "id": "us-east1-b",
+      "desc": "Eastern US/Berkeley County, South Carolina B"
+    }, {
+      "id": "us-east1-c",
+      "desc": "Eastern US/Berkeley County, South Carolina C"
+    }, {
+      "id": "us-east1-d",
+      "desc": "Eastern US/Berkeley County, South Carolina D"
+    }, {
+      "id": "us-central1-a",
+      "desc": "Central US/Council Bluffs, Iowa A"
+    }, {
+      "id": "us-central1-b",
+      "desc": "Central US/Council Bluffs, Iowa B"
+    }, {
+      "id": "us-central1-c",
+      "desc": "Central US/Council Bluffs, Iowa C"
+    }, {
+      "id": "us-central1-f",
+      "desc": "Central US/Council Bluffs, Iowa F"
+    }, {
+      "id": "europe-west1-b",
+      "desc": "Western Europe/St. Ghislain, Belgium B"
+    }, {
+      "id": "europe-west1-c",
+      "desc": "Western Europe/St. Ghislain, Belgium C"
+    }, {
+      "id": "europe-west1-d",
+      "desc": "Western Europe/St. Ghislain, Belgium D"
+    }, {
+      "id": "asia-east1-a",
+      "desc": "East Asia/Changhua County, Taiwan A"
+    }, {
+      "id": "asia-east1-b",
+      "desc": "East Asia/Changhua County, Taiwan B"
+    }, {
+      "id": "asia-east1-c",
+      "desc": "East Asia/Changhua County, Taiwan C"
+    }],
+
+
+    "machine-type": [{
+      "id": "n1-standard-1",
+      "desc": "Standard 1 CPU machine type with 1 virtual CPU and 3.75 GB of memory."
+    }, {
+      "id": "n1-standard-2",
+      "desc": "Standard 2 CPU machine type with 2 virtual CPUs and 7.5 GB of memory."
+    }, {
+      "id": "n1-standard-4",
+      "desc": "Standard 4 CPU machine type with 4 virtual CPUs and 15 GB of memory."
+    }, {
+      "id": "n1-standard-8",
+      "desc": "Standard 8 CPU machine type with 8 virtual CPUs and 30 GB of memory."
+    }, {
+      "id": "n1-standard-16",
+      "desc": "Standard 16 CPU machine type with 16 virtual CPUs and 60 GB of memory."
+    }, {
+      "id": "n1-standard-32",
+      "desc": "Standard 32 CPU machine type with 32 virtual CPUs and 120 GB of memory."
+    }, {
+      "id": "n1-highmem-2",
+      "desc": "High memory 2 CPU machine type with 2 virtual CPUs and 13 GB of memory."
+    }, {
+      "id": "n1-highmem-4",
+      "desc": "High memory 4 CPU machine type with 4 virtual CPUs, and 26 GB of memory."
+    }, {
+      "id": "n1-highmem-8",
+      "desc": "High memory 8 CPU machine type with 8 virtual CPUs and 52 GB of memory."
+    }, {
+      "id": "n1-highmem-16",
+      "desc": "High memory 16 CPU machine type with 16 virtual CPUs and 104 GB of memory."
+    }, {
+      "id": "n1-highmem-32",
+      "desc": "High memory 32 CPU machine type with 32 virtual CPUs and 208 GB of memory."
+    }, {
+      "id": "n1-highcpu-2",
+      "desc": "High-CPU machine type with 2 virtual CPUs and 1.80 GB of memory."
+    }, {
+      "id": "n1-highcpu-4",
+      "desc": "High-CPU machine type with 4 virtual CPUs and 3.60 GB of memory."
+    }, {
+      "id": "n1-highcpu-8",
+      "desc": "High-CPU machine type with 8 virtual CPUs and 7.20 GB of memory."
+    }, {
+      "id": "n1-highcpu-16",
+      "desc": "High-CPU machine type with 16 virtual CPUs and 14.4 GB of memory."
+    }, {
+      "id": "n1-highcpu-32",
+      "desc": "High-CPU machine type with 32 virtual CPUs and 28.8 GB of memory."
+    }, {
+      "id": "f1-micro",
+      "desc": "Micro machine type with 1 virtual CPU, 0.60 GB of memory, backed by a shared physical core."
+    }, {
+      "id": "g1-small",
+      "desc": "Shared-core machine type with 1 virtual CPU, 1.70 GB of memory, backed by a shared physical core."
+    }],
+
+
+    "disk-type": [{
+      "id": "local-ssd",
+      "desc": "Local SSDs"
+    }, {
+      "id": "pd-ssd",
+      "desc": "SSD Persistent Disk"
+    }, {
+      "id": "pd-standard",
+      "desc": "Standard Persistent Disk"
+    }],
+
+
+    "image": [{
+      "id": "centos-6",
+      "desc": "Centos 6"
+    }, {
+      "id": "centos-7",
+      "desc": "Centos 7"
+    }, {
+      "id": "coreos-alpha-835-1-0-v20151016",
+      "desc": "CoreOS Alpha"
+    }, {
+      "id": "coreos-beta-766-4-0-v20150917",
+      "desc": "CoreOS Beta"
+    }, {
+      "id": "coreos",
+      "desc": "CoreOS Stable"
+    }, {
+      "id": "debian-7-backports",
+      "desc": "Debian 7 Backports"
+    }, {
+      "id": "debian-7",
+      "desc": "Debian 7"
+    }, {
+      "id": "debian-8",
+      "desc": "Debian 8"
+    }, {
+      "id": "opensuse-13",
+      "desc": "openSUSE 13"
+    }, {
+      "id": "rhel-6",
+      "desc": "RHEL 6"
+    }, {
+      "id": "rhel-7",
+      "desc": "RHEL 7"
+    }, {
+      "id": "sles-11",
+      "desc": "SUSE 11"
+    }, {
+      "id": "sles-12",
+      "desc": "SUSE 12"
+    }, {
+      "id": "ubuntu-12-04",
+      "desc": "Ubuntu 12.04"
+    }, {
+      "id": "ubuntu-14-04",
+      "desc": "Ubuntu 14.04"
+    }, {
+      "id": "ubuntu-15-04",
+      "desc": "Ubuntu 15.04"
+    }, {
+      "id": "windows-2008-r2",
+      "desc": "Windows Server 2008"
+    }, {
+      "id": "windows-2012-r2",
+      "desc": "Windows Server 2012"
+    }]
+  }
+}
