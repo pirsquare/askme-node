@@ -1,0 +1,219 @@
+{
+  "ec2": {
+    "region": [{
+      "id": "ap-northeast-1",
+      "desc": "Asia Pacific (Tokyo)"
+    }, {
+      "id": "ap-southeast-1",
+      "desc": "Asia Pacific (Singapore)"
+    }, {
+      "id": "ap-southeast-2",
+      "desc": "Asia Pacific (Sydney)"
+    }, {
+      "id": "eu-central-1",
+      "desc": "EU (Frankfurt)"
+    }, {
+      "id": "eu-west-1",
+      "desc": "EU (Ireland)"
+    }, {
+      "id": "sa-east-1",
+      "desc": "South America (Sao Paulo)"
+    }, {
+      "id": "us-east-1",
+      "desc": "US East (N. Virginia)"
+    }, {
+      "id": "us-west-1",
+      "desc": "US West (N. California)"
+    }, {
+      "id": "us-west-2",
+      "desc": "US West (Oregon)"
+    }],
+
+    "zone": [{
+      "id": "ap-northeast-1a",
+      "desc": "Asia Pacific (Tokyo) Zone A"
+    }, {
+      "id": "ap-northeast-1c",
+      "desc": "Asia Pacific (Tokyo) Zone C"
+    }, {
+      "id": "ap-southeast-1a",
+      "desc": "Asia Pacific (Singapore) Zone A"
+    }, {
+      "id": "ap-southeast-1b",
+      "desc": "Asia Pacific (Singapore) Zone B"
+    }, {
+      "id": "ap-southeast-2a",
+      "desc": "Asia Pacific (Sydney) Zone A"
+    }, {
+      "id": "ap-southeast-2b",
+      "desc": "Asia Pacific (Sydney) Zone B"
+    }, {
+      "id": "eu-central-1a",
+      "desc": "EU (Frankfurt) Zone A"
+    }, {
+      "id": "eu-central-1b",
+      "desc": "EU (Frankfurt) Zone B"
+    }, {
+      "id": "eu-west-1a",
+      "desc": "EU (Ireland) Zone A"
+    }, {
+      "id": "eu-west-1b",
+      "desc": "EU (Ireland) Zone B"
+    }, {
+      "id": "eu-west-1c",
+      "desc": "EU (Ireland) Zone C"
+    }, {
+      "id": "sa-east-1a",
+      "desc": "South America (Sao Paulo) Zone A"
+    }, {
+      "id": "sa-east-1b",
+      "desc": "South America (Sao Paulo) Zone B"
+    }, {
+      "id": "sa-east-1c",
+      "desc": "South America (Sao Paulo) Zone C"
+    }, {
+      "id": "us-east-1b",
+      "desc": "US East (N. Virginia) Zone B"
+    }, {
+      "id": "us-east-1c",
+      "desc": "US East (N. Virginia) Zone C"
+    }, {
+      "id": "us-east-1d",
+      "desc": "US East (N. Virginia) Zone D"
+    }, {
+      "id": "us-east-1e",
+      "desc": "US East (N. Virginia) Zone E"
+    }, {
+      "id": "us-west-1a",
+      "desc": "US West (N. California) Zone A"
+    }, {
+      "id": "us-west-1b",
+      "desc": "US West (N. California) Zone B"
+    }, {
+      "id": "us-west-2a",
+      "desc": "US West (Oregon) Zone A"
+    }, {
+      "id": "us-west-2b",
+      "desc": "US West (Oregon) Zone B"
+    }, {
+      "id": "us-west-2c",
+      "desc": "US West (Oregon) Zone C"
+    }],
+
+    "instance-type": [{
+      "id": "t2.micro",
+      "desc": "1GB RAM/1 CPU. General purpose server."
+    }, {
+      "id": "t2.small",
+      "desc": "2GB RAM/1 CPU. General purpose server."
+    }, {
+      "id": "t2.medium",
+      "desc": "4GB RAM/2 CPU. General purpose server."
+    }, {
+      "id": "t2.large",
+      "desc": "8GB RAM/2 CPU. General purpose server."
+    }, {
+      "id": "m4.large",
+      "desc": "8GB RAM/2 CPU. General purpose server."
+    }, {
+      "id": "m4.xlarge",
+      "desc": "16GB RAM/4 CPU. General purpose server."
+    }, {
+      "id": "m4.2xlarge",
+      "desc": "32GB RAM/8 CPU. General purpose server."
+    }, {
+      "id": "m4.4xlarge",
+      "desc": "64GB RAM/16 CPU. General purpose server."
+    }, {
+      "id": "m4.10xlarge",
+      "desc": "160GB RAM/40 CPU. General purpose server."
+    }, {
+      "id": "m3.medium",
+      "desc": "3.75GB RAM/1 CPU. General purpose server. 1 x 4GB SSD Storage."
+    }, {
+      "id": "m3.large",
+      "desc": "7.5GB RAM/2 CPU. General purpose server. 1 x 32GB SSD Storage."
+    }, {
+      "id": "m3.xlarge",
+      "desc": "15GB RAM/4 CPU. General purpose server. 2 x 40GB SSD Storage."
+    }, {
+      "id": "m3.2xlarge",
+      "desc": "30GB RAM/8 CPU. General purpose server. 2 x 80GB SSD Storage."
+    }, {
+      "id": "c4.large",
+      "desc": "3.75GB RAM/2 CPU. Compute optimized server."
+    }, {
+      "id": "c4.xlarge",
+      "desc": "7.5GB RAM/4 CPU. Compute optimized server."
+    }, {
+      "id": "c4.2xlarge",
+      "desc": "15GB RAM/8 CPU. Compute optimized server."
+    }, {
+      "id": "c4.4xlarge",
+      "desc": "30GB RAM/16 CPU. Compute optimized server."
+    }, {
+      "id": "c4.8xlarge",
+      "desc": "60GB RAM/36 CPU. Compute optimized server."
+    }, {
+      "id": "c3.large",
+      "desc": "3.75GB RAM/2 CPU. Compute optimized server. 2 x 16GB SSD Storage."
+    }, {
+      "id": "c3.xlarge",
+      "desc": "7.5GB RAM/4 CPU. Compute optimized server. 2 x 40GB SSD Storage."
+    }, {
+      "id": "c3.2xlarge",
+      "desc": "15GB RAM/8 CPU. Compute optimized server. 2 x 80GB SSD Storage."
+    }, {
+      "id": "c3.4xlarge",
+      "desc": "30GB RAM/16 CPU. Compute optimized server. 2 x 160GB SSD Storage."
+    }, {
+      "id": "c3.8xlarge",
+      "desc": "60GB RAM/32 CPU. Compute optimized server. 2 x 320GB SSD Storage."
+    }, {
+      "id": "r3.large",
+      "desc": "15.25GB RAM/2 CPU. Memory optimized server. 1 x 32GB SSD Storage."
+    }, {
+      "id": "r3.xlarge",
+      "desc": "30.5GB RAM/4 CPU. Memory optimized server. 1 x 80GB SSD Storage."
+    }, {
+      "id": "r3.2xlarge",
+      "desc": "61GB RAM/8 CPU. Memory optimized server. 1 x 160GB SSD Storage."
+    }, {
+      "id": "r3.4xlarge",
+      "desc": "122GB RAM/16 CPU. Memory optimized server. 1 x 320GB SSD Storage."
+    }, {
+      "id": "r3.8xlarge",
+      "desc": "244GB RAM/32 CPU. Memory optimized server. 2 x 320GB SSD Storage."
+    }, {
+      "id": "g2.2xlarge",
+      "desc": "15GB RAM/8 CPU/1 GPU. GPU server. 1 x 60GB SSD Storage."
+    }, {
+      "id": "g2.8xlarge",
+      "desc": "60GB RAM/32 CPU/4 GPU. GPU server. 2 x 120GB SSD Storage."
+    }, {
+      "id": "i2.xlarge",
+      "desc": "30.5GB RAM/4 CPU. Storage optimized server. 1 x 800GB SSD Storage."
+    }, {
+      "id": "i2.2xlarge",
+      "desc": "61GB RAM/8 CPU. Storage optimized server. 2 x 800GB SSD Storage."
+    }, {
+      "id": "i2.4xlarge",
+      "desc": "122GB RAM/16 CPU. Storage optimized server. 4 x 800GB SSD Storage."
+    }, {
+      "id": "i2.8xlarge",
+      "desc": "244GB RAM/32 CPU. Storage optimized server. 8 x 800GB SSD Storage."
+    }, {
+      "id": "d2.xlarge",
+      "desc": "30.5GB RAM/4 CPU. Storage optimized server. 3 x 2000GB HDD Storage."
+    }, {
+      "id": "d2.2xlarge",
+      "desc": "61GB RAM/8 CPU. Storage optimized server. 6 x 2000GB HDD Storage."
+    }, {
+      "id": "d2.4xlarge",
+      "desc": "122GB RAM/16 CPU. Storage optimized server. 12 x 2000GB HDD Storage."
+    }, {
+      "id": "d2.8xlarge",
+      "desc": "244GB RAM/36 CPU. Storage optimized server. 24 x 2000GB HDD Storage."
+    }]
+  }
+}
