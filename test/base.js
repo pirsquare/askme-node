@@ -4,7 +4,7 @@ var Base = require('../lib/base');
 
 
 function generateBase(options) {
-  var awsDataFile = path.normalize("../source/data/aws.json");
+  var awsDataFile = path.normalize("./source/data/aws.json");
   return new Base(awsDataFile, options);
 }
 
