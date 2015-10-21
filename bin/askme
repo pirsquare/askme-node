@@ -1,0 +1,109 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+var askme = require('../');
+
+program
+  .command('do <record>')
+  .description('DigitalOcean Record: (region|dist-image|app-image|size)')
+  .option('-f, --fields <fields>', 'Specified fields to retrieve (comma-seperated)')
+  .option('-d, --delimiter <delimiter>', 'Delimiter (default is " | " with spaces)')
+  .option('-o, --omit-columns', 'Omit Columns')
+  .action(function(record, options) {
+    options.delimiter = options.delimiter || " | ";
+    var doClient = new askme.DigitalOcean(options);
+
+    switch (record) {
+      case "region":
+        doClient.renderRegion();
+        break;
+
+      case "dist-image":
+        doClient.renderDistImage();
+        break;
+
+      case "app-image":
+        doClient.renderAppImage();
+        break;
+
+      case "size":
+        doClient.renderSize();
+        break;
+
+      default:
+        throw new Error("No matching record to query");
+    }
+
+  });
+
+
+program
+  .command('gcloud <record>')
+  .description('Google Cloud Record: (gce-zone|gce-machine-type|gce-disk-type|gce-image)')
+  .option('-f, --fields <fields>', 'Specified fields to retrieve (comma-seperated)')
+  .option('-d, --delimiter <delimiter>', 'Delimiter (default is " | " with spaces)')
+  .option('-o, --omit-columns', 'Omit Columns')
+  .action(function(record, options) {
+    options.delimiter = options.delimiter || " | ";
+    var gcloudClient = new askme.GCloud(options);
+
+    switch (record) {
+      case "gce-zone":
+        gcloudClient.renderGCEZone();
+        break;
+
+      case "gce-machine-type":
+        gcloudClient.renderGCEMachineType();
+        break;
+
+      case "gce-disk-type":
+        gcloudClient.renderGCEDiskType();
+        break;
+
+      case "gce-image":
+        gcloudClient.renderGCEImage();
+        break;
+
+      default:
+        throw new Error("No matching record to query");
+    }
+
+  });
+
+
+program
+  .command('aws <record>')
+  .description('AWS Record: (ec2-region|ec2-zone|ec2-instance-type)')
+  .option('-f, --fields <fields>', 'Specified fields to retrieve (comma-seperated)')
+  .option('-d, --delimiter <delimiter>', 'Delimiter (default is " | " with spaces)')
+  .option('-o, --omit-columns', 'Omit Columns')
+  .action(function(record, options) {
+    options.delimiter = options.delimiter || " | ";
+    var awsClient = new askme.AWS(options);
+
+    switch (record) {
+      case "ec2-region":
+        awsClient.renderEC2Region();
+        break;
+
+      case "ec2-zone":
+        awsClient.renderEC2Zone();
+        break;
+
+      case "ec2-instance-type":
+        awsClient.renderEC2InstanceType();
+        break;
+
+      default:
+        throw new Error("No matching record to query");
+    }
+
+  });
+
+
+program.parse(process.argv);
+
+// Show help when nothing is specified
+if (program.args.length === 0) {
+  program.help();
+}

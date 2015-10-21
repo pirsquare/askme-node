@@ -1,0 +1,31 @@
+{
+  "name": "askme",
+  "version": "0.1.0",
+  "description": "AskMe Node Client",
+  "keywords": [
+    "askme",
+    "cloud",
+    "aws",
+    "gcloud",
+    "digitalocean",
+    "command"
+  ],
+  "author": "Ryan Liao <pirsquare.ryan@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pirsquare/askme-node.git"
+  },
+  "main": "index.js",
+  "bin": "./bin/askme",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --recursive"
+  },
+  "bin": "./bin/askme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  }
+}
