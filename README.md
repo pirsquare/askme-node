@@ -57,6 +57,8 @@ askme do dist-image
     Id: ubuntu-15-04-x32 | Description: Ubuntu 15.04 32bit
     Id: ubuntu-15-04-x64 | Description: Ubuntu 15.04 64bit
 
+
+
 # Omit columns and only show ids
 askme do dist-image -o --fields="id"
 
@@ -85,6 +87,8 @@ askme do dist-image -o --fields="id"
     ubuntu-14-04-x64
     ubuntu-15-04-x32
     ubuntu-15-04-x64
+
+
 
 # Change delimiter value. Query google compute engine's supported disk type
 askme gcloud gce-disk-type --delimiter=" || "
