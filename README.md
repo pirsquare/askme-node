@@ -4,7 +4,7 @@
 AskMe Node Client
 
 ## Use Case
-[See use case](https://github.com/pirsquare/askme#Use-Case)
+[See use case](https://github.com/pirsquare/askme#use-case)
 
 ## Installation
 
@@ -13,6 +13,7 @@ AskMe Node Client
 ## Usage
 ```shell
 
+
   Options:
 
     -h, --help                   output usage information
@@ -20,14 +21,17 @@ AskMe Node Client
     -d, --delimiter <delimiter>  Delimiter (default is " | " with spaces)
     -o, --omit-columns           Omit Columns
 
+
 ```
 
 ## Examples
 ```shell
+
 # Get list of digitalocean's supported distribution image.
 # In this case, we are querying for digitalocean's "dist-image" record
 askme do dist-image
 
+  Output:
     Id: centos-5-8-x32   | Description: Centos 5.8 32bit
     Id: centos-5-8-x64   | Description: Centos 5.8 64bit
     Id: centos-6-5-x32   | Description: Centos 6.5 32bit
@@ -56,6 +60,7 @@ askme do dist-image
 # Omit columns and only show ids
 askme do dist-image -o --fields="id"
 
+  Output:
 	centos-5-8-x32
     centos-5-8-x64
     centos-6-5-x32
@@ -84,9 +89,11 @@ askme do dist-image -o --fields="id"
 # Change delimiter value. Query google compute engine's supported disk type
 askme gcloud gce-disk-type --delimiter=" || "
 
+  Output:
     Id: local-ssd   || Description: Local SSDs
     Id: pd-ssd      || Description: SSD Persistent Disk
     Id: pd-standard || Description: Standard Persistent Disk
+
 
 ```
 
@@ -97,11 +104,11 @@ askme gcloud gce-disk-type --delimiter=" || "
 
 
 ## Supported fields
-[See supported fields](https://github.com/pirsquare/askme#Supported-Fields)
+[See supported fields](https://github.com/pirsquare/askme#supported-fields)
 
 
 ## Supported records
-[See supported records](https://github.com/pirsquare/askme#AWS)
+[See supported records](https://github.com/pirsquare/askme#aws)
 
 
 ## Note
